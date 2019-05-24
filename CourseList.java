@@ -152,7 +152,7 @@ public class CourseList {
 				CourseNode nnew = new CourseNode(replace, next.next);
 				holder.setNext(nnew);
 				if (next.next != null) {
-					next.next.setNext(null);
+					next.setNext(null);
 				}
 			}
 		}
